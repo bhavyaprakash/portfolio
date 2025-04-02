@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;  /* Align text and image in the center */
+    justify-content: space-between; /* Push text to left and image to right */
+    padding: 40px;
+  }
+  p {
+    font-family: auto;
+  }
+  .intro {
+    font-size: x-large;
+    font-weight: 500;  
+    padding-bottom: 5%;
+  }
+
+  .name {
+    font-size: xxx-large;
+    font-weight: 500;
+    padding-bottom: 5%;
+  }
+  
+  .des, .loc{
+    font-size: large;
+  }
+  /* Style the location icon */
+  mat-icon {
+    vertical-align: middle;
+    color: #007bff; /* Attractive blue */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 6%;
+  }
+  
+  .social-icons img {
+    width: 35px; /* Adjust size */
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .git{
+    width: 40px !important;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  

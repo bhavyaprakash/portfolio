@@ -4,11 +4,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatButtonModule} from '@angular/material/button';
 import { MatSnackBar, MatSnackBarModule } from '@angular/material/snack-bar';
+import { IntroComponent } from "../intro/intro.component";
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [CommonModule, MatIconModule,MatButtonModule, MatTooltipModule, MatSnackBarModule],
+  imports: [CommonModule, MatIconModule, MatButtonModule, MatTooltipModule, MatSnackBarModule, IntroComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })
