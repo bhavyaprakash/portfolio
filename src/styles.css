@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/* Light Mode (Default) */
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode */
+  body.dark-theme {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Ensure left-side links adapt */
+  .header .left a {
+    color: inherit; /* Uses body text color */
+    text-decoration: none;
+  }
+  
+  /* Button Styling for Light Mode */
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Button Styling for Dark Mode */
+  body.dark-theme button {
+    background-color: white;
+    color: black;
+  }
+  
+
+  /* Light Mode */
+button {
+    background-color: black !important;
+    color: white !important;
+  }
+  
+  /* Dark Mode */
+  body.dark-theme button {
+    background-color: white !important;
+    color: black !important;
+  }
+  

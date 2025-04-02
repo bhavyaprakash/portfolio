@@ -1,0 +1,16 @@
+<header class="header">
+    <div class="left">
+        <a>About</a>
+        <a>Work</a>
+        <a>Contact</a>
+    </div>
+    <div class="port">Portfolio</div>
+    <div class="right">
+        <mat-icon (click)="toggleTheme()" aria-hidden="false" aria-label="Theme toggle icon">
+            {{ isDarkMode ? 'dark_mode' : 'light_mode' }}
+        </mat-icon>
+        <a href="https://drive.google.com/uc?export=download&id=1wbqOTZfEyqvGyGC3CONkWOS11c6XtU3r" (click)="showDownloadMessage()">
+            <button mat-flat-button matTooltip="Download Resume">Resume</button>
+        </a>
+    </div>   
+</header>
