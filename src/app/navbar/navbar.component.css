@@ -37,4 +37,6 @@
     font-weight: bold;
   }
   
-  
+  .clickable {
+    cursor: pointer; /* Shows finger pointer only where (click) is present */
+}

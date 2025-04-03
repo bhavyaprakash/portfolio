@@ -1,0 +1,49 @@
+.about-container {
+    display: flex;
+    align-items: center;  /* Align text and image in the center */
+    justify-content: space-between; /* Push text to left and image to right */
+    flex-direction: column;
+    padding: 2%;
+    /* background-color:rgb(39 50 74); */
+  }
+
+  .chip-container {
+    margin-bottom: 20px; /* Adjust spacing between chip and content */
+}
+
+.content-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.text-container{
+    position: relative;
+    width: 50%;
+    left: 7%;
+}
+
+  img{
+    width: 70%;
+  }
+
+  .photo {
+    position: relative;
+    display: block;
+    background: linear-gradient(to left, transparent 93%, grey 80%), linear-gradient(to bottom, transparent 94%, grey 80%);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 5%;
+}
+
+.heading {
+    font-size: xx-large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 500;
+}

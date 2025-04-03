@@ -31,4 +31,11 @@ export class NavbarComponent {
     document.body.classList.toggle('dark-theme', this.isDarkMode);
   }
 
+  scrollToAbout() {
+    const aboutSection = document.getElementById('about-section');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
 }

@@ -52,3 +52,15 @@ button {
     color: black !important;
   }
   
+  /* Light Mode (Default) */
+.about-container {
+  background-color: rgb(240, 240, 240) !important; /* Light Grey */
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-theme .about-container {
+  background-color: rgb(39, 50, 74) !important; /* Dark Background */
+  color: white;
+}

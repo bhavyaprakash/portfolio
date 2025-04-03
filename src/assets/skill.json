@@ -1,0 +1,50 @@
+[
+    {
+        "image": "/assets/img/angular.png",
+        "name": "Angular"
+    },
+    {
+        "image": "/assets/img/react.png",
+        "name": "React"
+    },
+    {
+        "image": "/assets/img/typescript.png",
+        "name": "TypeScript"
+    },
+    {
+        "image": "/assets/img/javascript.png",
+        "name": "JavaScript"
+    },
+    {
+        "image": "/assets/img/html.png",
+        "name": "HTML5"
+    },
+    {
+        "image": "/assets/img/css.jpeg",
+        "name": "CSS"
+    },
+    {
+        "image": "/assets/img/java.png",
+        "name": "Java"
+    },
+    {
+        "image": "/assets/img/springboot.png",
+        "name": "Spring Boot"
+    },
+    {
+        "image": "/assets/img/postgresql.png",
+        "name": "PostgreSQL"
+    },
+    {
+        "image": "/assets/img/MongoDB.svg",
+        "name": "MongoDB"
+    },
+    {
+        "image": "/assets/img/git.png",
+        "name": "Git"
+    },
+    {
+        "image": "/assets/img/sharepoint.jpeg",
+        "name": "Sharepoint"
+    }
+]
