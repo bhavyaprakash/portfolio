@@ -34,7 +34,7 @@
   .social-icons {
     display: flex;
     gap: 15px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
   
   .social-icons img {
@@ -65,4 +65,37 @@
     padding: 5%;
 }
 
-  
+button{
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .left {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .photo {
+    width: 80%;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, transparent 94%, grey 80%), linear-gradient(to bottom, transparent 94%, grey 80%), linear-gradient(to left, transparent 94%, grey 80%);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 87%;
+    padding: 6%;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+}

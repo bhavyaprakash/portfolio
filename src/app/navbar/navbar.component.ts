@@ -16,6 +16,12 @@ import { IntroComponent } from "../intro/intro.component";
 export class NavbarComponent {
   isDarkMode = false;
   constructor(private snackBar: MatSnackBar) {}
+  showMobileMenu = false;
+
+  toggleMenu() {
+    this.showMobileMenu = !this.showMobileMenu;
+  }
+
 
   showDownloadMessage() {
     this.snackBar.open('Downloading Resume...', '✖', {
@@ -35,6 +41,20 @@ export class NavbarComponent {
     const aboutSection = document.getElementById('about-section');
     if (aboutSection) {
       aboutSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  scrollToWork(){
+    const workSection = document.getElementById('exp-section');
+    if (workSection) {
+      workSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+
+  scrollToContact(){
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
 

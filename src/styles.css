@@ -61,6 +61,32 @@ button {
 
 /* Dark Mode */
 .dark-theme .about-container {
-  background-color: rgb(39, 50, 74) !important; /* Dark Background */
+  background-color: rgb(17, 24, 39) !important; /* Dark Background */
   color: white;
 }
+
+  /* Light Mode (Default) */
+  .exp-container {
+    background-color: rgb(240, 240, 240) !important; /* Light Grey */
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode */
+  .dark-theme .exp-container {
+    background-color: rgb(17, 24, 39) !important; /* Dark Background */
+    color: white;
+  }
+
+  /* Light Mode (Default) */
+  .exp-card {
+    background-color: rgb(255, 255, 255) !important; /* Light Grey */
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode */
+  .dark-theme .exp-card {
+    background-color: rgb(31, 41, 55) !important; /* Dark Background */
+    color: white;
+  }

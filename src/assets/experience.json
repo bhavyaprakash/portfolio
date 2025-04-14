@@ -1,0 +1,38 @@
+[
+    {
+      "company": "Capgemini",
+      "logo": "assets/img/capg.png",
+      "duration": "Oct 2024 - Present",
+      "position": "Senior Analyst",
+      "details": [
+        "Managed two projects simultaneously, leveraging both Angular and React technologies.",
+        "Crafted visually engaging and user-friendly website screens, boosting user interaction and engagement by 15%.",
+        "Developed and maintained a SharePoint portal, improving client engagement by 40%.",
+        "Led training and created documentation, boosting onboarding efficiency by 30% and ensuring coding best practices."
+      ]
+    },
+    {
+      "company": "Capgemini",
+      "logo": "assets/img/capg.png",
+      "duration": "Oct 2022 - Oct 2024", 
+      "position": "Analyst",
+      "details": [
+        "Developed responsive Angular web applications, increasing user retention by 25%.",
+        "Led the implementation of 3+ essential UI features using Micro-Frontend Architecture to improve user experience.",
+        "Optimized 10+ packages, ensuring adherence to SOLID and DRY principles for clean and efficient code, increasing code quality by 30%.",
+        "Specialized in API integration, enhancing front-end to back-end data communication for optimal performance.",
+        "Collaborated with cross-functional teams to troubleshoot and resolve critical issues, improving system stability."
+    ]
+    },
+    {
+      "company": "Capgemini",
+      "logo": "assets/img/capg.png",
+      "duration": "Mar 2022 - May 2022",
+      "position": "Intern",
+      "details": [
+        "Developed a Student Management System using Springboot Application and MySql with all the CRUD functionalities and connected with other services using the Eureka server.",
+        "Later the project is deployed in Docker as a Container and then in GCP, it is deployed in Kubernetes.",
+        "Technologies used: Java, Springboot, MySql, Docker, Kubernetes, GCP."]
+    }
+  ]
+  

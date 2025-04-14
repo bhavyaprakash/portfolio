@@ -1,42 +1,79 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  position: relative;
+
+  .left {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    font-size: medium;
+  }
+
+  .right {
+    display: flex;
     align-items: center;
-    padding: 10px 20px;
-  
-    .left {
-      display: flex;
-      gap: 20px;
-      font-size: medium;
+    gap: 20px;
+  }
+
+  .port {
+    font-size: x-large;
+    font-family: monospace;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+
+    a {
+      padding: 5px 10px;
+      font-weight: 500;
+      text-decoration: none;
+      color: black;
     }
-  
-    .right {
+  }
+
+  @media (max-width: 768px) {
+    .left {
+      display: none;
+    }
+
+    .menu-icon {
+      display: inline;
+    }
+
+    .mobile-menu {
       display: flex;
-      align-items: center;
-      gap: 20px;
     }
 
     .port {
-        font-size: x-large;
-        font-family: monospace;
+      position: static;
+      transform: none;
+      order: -1;
+      margin-bottom: 10px;
     }
   }
+}
 
-  .custom-snackbar {
-    background-color: white !important; 
-    color: black !important;
-    font-weight: bold;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style the close (✖) button */
-  .custom-snackbar .mat-simple-snackbar-action {
-    color: black !important; 
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .clickable {
-    cursor: pointer; /* Shows finger pointer only where (click) is present */
+
+.clickable {
+  cursor: pointer;
 }

@@ -1,8 +1,8 @@
 <header class="header">
     <div class="left">
         <a (click)="scrollToAbout()" class="clickable">About</a>
-        <a class="clickable">Work</a>
-        <a class="clickable">Contact</a>
+        <a (click)="scrollToWork()" class="clickable">Work</a>
+        <a (click)="scrollToContact()" class="clickable">Contact</a>
     </div>
     <div class="port">Portfolio</div>
     <div class="right">
@@ -12,6 +12,15 @@
         <a href="https://drive.google.com/uc?export=download&id=1wbqOTZfEyqvGyGC3CONkWOS11c6XtU3r" (click)="showDownloadMessage()">
             <button mat-flat-button matTooltip="Download Resume">Resume</button>
         </a>
+
+        <mat-icon class="menu-icon" (click)="toggleMenu()">menu</mat-icon>
     </div>   
+
+     <!-- Mobile Menu -->
+  <div class="mobile-menu" *ngIf="showMobileMenu">
+    <a (click)="scrollToAbout(); toggleMenu()"  class="clickable">About</a>
+    <a (click)="scrollToWork(); toggleMenu()" class="clickable">Work</a>
+    <a (click)="scrollToContact(); toggleMenu()" class="clickable">Contact</a>
+  </div>
 </header>
 <app-intro></app-intro>

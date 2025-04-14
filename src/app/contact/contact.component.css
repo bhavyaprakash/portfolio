@@ -1,0 +1,60 @@
+.contact-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  .chip-container {
+    margin-bottom: 20px; 
+}
+.detail {
+    width: 56%;
+}
+
+.mail{
+    display: flex; 
+    align-items: center; 
+    gap: 8px;
+}
+a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+h2{
+    margin-top: 5%;
+}
+.copy {
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons img {
+    width: 35px; /* Adjust size */
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .git{
+    width: 40px !important;
+  }
+  
+  .social-icons a:hover img {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+
+  .divider {
+    margin: 2rem auto;
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  

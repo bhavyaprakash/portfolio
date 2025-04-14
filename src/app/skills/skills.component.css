@@ -22,3 +22,30 @@
     align-items: center;
     margin: 2%; /* Add spacing below */
   }
+
+  @media (max-width: 768px) {
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .skill {
+      width: calc((100% / 3) - 20px); /* 3 items per row on small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .skill {
+      width: calc((100% / 2) - 20px); /* 2 items per row on very small screens */
+    }
+  }
+  

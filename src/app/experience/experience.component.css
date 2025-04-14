@@ -1,0 +1,90 @@
+.exp-container {
+    display: flex;
+    align-items: center;  /* Align text and image in the center */
+    justify-content: space-between; /* Push text to left and image to right */
+    flex-direction: column;
+    padding: 2%;
+  }
+
+  .chip-container {
+    margin-bottom: 20px; /* Adjust spacing between chip and content */
+}
+
+.exp-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 70%;
+  }
+  
+  .exp-card {
+    padding: 20px;
+  }
+  
+  .exp-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .exp-logo {
+    width: 20%;
+  }
+  img {
+    width: 100%;
+    height: 20%;
+    object-fit: contain;
+  }
+  
+  .exp-details {
+    flex: 1;
+  }
+  
+  .exp-duration {
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  h3{
+    padding-left: 5%;
+    font-weight: 500;
+  }
+
+
+  @media (max-width: 768px) {
+    .exp-main-container {
+      width: 90%;
+      padding: 10px;
+      align-items: flex-start;
+    }
+  
+    .exp-card-content {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      gap: 0;
+    }
+  
+    .exp-logo {
+      width: 30%;
+      order: 1;
+    }
+  
+    .exp-duration {
+      margin-top: 5px;
+      order: 2;
+    }
+  
+    .exp-details {
+      width: 100%;
+      padding-top: 10px;
+      order: 3;
+    }
+  
+    h3 {
+      padding-left: 0;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+<div class="exp-container" id="exp-section">
+    <div class="chip-container">
+        <mat-chip>Experience</mat-chip>
+    </div>
+    <p class="chip-container">Here is a quick summary of my rescent experience</p>
+    <div class="exp-main-container">
+        <mat-card *ngFor="let exp of experiences" class="exp-card">
+          <div class="exp-card-content">
+            <!-- Left: Logo -->
+            <div class="exp-logo">
+              <img [src]="exp.logo" [alt]="exp.company" />
+            </div>
+      
+            <!-- Center: Position & Details -->
+            <div class="exp-details">
+              <h3>{{ exp.position }}</h3>
+              <ul>
+                <li *ngFor="let point of exp.details">{{ point }}</li>
+              </ul>
+            </div>
+      
+            <!-- Right: Duration -->
+            <div class="exp-duration">
+              <span>{{ exp.duration }}</span>
+            </div>
+          </div>
+        </mat-card>
+      </div>     
+</div>
