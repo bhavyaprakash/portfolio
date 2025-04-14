@@ -10,7 +10,8 @@
             {{ isDarkMode ? 'dark_mode' : 'light_mode' }}
         </mat-icon>
         <a href="https://drive.google.com/uc?export=download&id=1wbqOTZfEyqvGyGC3CONkWOS11c6XtU3r" (click)="showDownloadMessage()">
-            <button mat-flat-button matTooltip="Download Resume">Resume</button>
+            <button mat-flat-button matTooltip="Download Resume">
+                <mat-icon>download</mat-icon> Resume</button>
         </a>
 
         <mat-icon class="menu-icon" (click)="toggleMenu()">menu</mat-icon>
